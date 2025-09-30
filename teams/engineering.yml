@@ -41,9 +41,10 @@ team_settings:
     enable_host_users: true
     enable_software_inventory: true
   webhook_settings:
-    failing_policies_webhook_enabled: true
-    destination_url: https://tines.com
-    host_batch_size: 0
-    policy_ids:
-      - 597
+    failing_policies_webhook:
+      enable_failing_polcies_webhook: true
+      destination_url: https://tines.com
+      host_batch_size: 0
+      policy_ids:
+        - 597
 software:
